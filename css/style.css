@@ -1,0 +1,26 @@
+/* CSS 初始化 */
+body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,table,tr,td,form,p,ul,li,ol,span,img,a,em,i,strong,b,input,select,option,textarea,label{ margin:0; padding:0;}
+li{ list-style:none;}
+img{ border:0 none; vertical-align:top;}
+a{ color:#404040; text-decoration:none;}
+a:hover{ color:#ff6400}
+body{ font-family:"宋体"; font-size:14px;}
+.clearfix{ zoom:1;}
+.clearfix:after{ content:"."; clear:both; visibility:hidden; height:0; display:block;}
+
+
+
+
+.header{ width:100%; height:155px; margin:0 auto; background:url(../images/head-bd.jpg) no-repeat center top; padding-top:350px; overflow:hidden;}
+.header ul li{ font-size:14px; color:#0c0b0a; font-family:"微软雅黑"; width:610px; line-height:23px;}
+.header ul{ padding-left:220px;}
+.bd{ width:100%; background:url(../images/bd.jpg)center top; padding-bottom:168px}
+.layer{ width:320px; height:443px; margin:0 auto; border:1px dashed #bdab85; background:url(../images/1.jpg) no-repeat ; padding:133px 0 0 664px; line-height:31px; margin-bottom:24px;}
+.layer dt{ font-size:18px; font-weight:bold; font-family:"微软雅黑"; line-height:31px}
+.layer dd{ font-size:14px;font-family:"微软雅黑"; background:url(../images/dian.jpg) no-repeat left center; padding-left:15px;  }
+.layer dd a{ color:#666; text-decoration:underline;}
+.bt{ background:url(../images/btn-bg.png) no-repeat; display:block; height:45px; width:166px; color:#FFF; font-size:16px;font-family:"微软雅黑"; line-height:45px; text-align:center; font-weight:bold; margin-top:67px; }
+.foot{ height:183px; width:984px; margin:0 auto;border:1px dashed #bdab85; background:url(../images/foot-bd.jpg) no-repeat;}
+.foot ul li{ font-size:14px; font-family:"微软雅黑"; line-height:27px; color:#666;}
+.foot ul{ padding:81px 0 0 81px;}
+.foot ul span{ color:#bf2014;}
